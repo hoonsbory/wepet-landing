@@ -1,0 +1,22 @@
+#root {
+  max-width: 480px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: black;
+  width: 480px;
+  font-family: 'NanumSquareRoundB';
+  font-weight: 700;
+}
+body {
+  font-family: 'NanumSquareRoundB';
+  font-weight: 700;
+}
+@media (max-width: 480px) {
+  #root {
+    width: 100vw;
+  }
+}
+@font-face {
+  font-family: 'NanumSquareRoundB';
+  src: url('/fonts/NanumSquareRoundOTFEB.otf');
+}
